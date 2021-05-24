@@ -976,6 +976,19 @@ section {
   background: #37b3ed;
 }
 
+.button_ias {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.button_ias:hover {
+  background: #37b3ed;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
