@@ -398,7 +398,7 @@
     </section><!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg" style="display: none;">
+    <section id="portfolio" class="portfolio section-bg" >
       <div class="container">
 
         <div class="section-title">
@@ -416,12 +416,37 @@
             </ul>
           </div>
         </div>-->
+          
+        <style>
+          .window {
+            width: 400px;
+            margin: auto;
+            border: 7px solid #1d505d;
+            border-radius: 5px;
+            box-shadow: 0px 20px 46px 2px #bcc6ff;
+            cursor: n-resize;
 
+            img {
+              width: 100%;
+              object-fit: cover;
+              object-position: top;
+              height: 270px;
+              transition: 8s all ease;
+
+              &:hover {
+                object-position: bottom;
+              }
+            }
+          }  
+        </style>
+        
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio-3.PNG" class="img-fluid" alt="">
+              <div class="window">
+                  <img src="https://i.ibb.co/mDyRk0j/enversuite.png">
+              </div>
               <div class="portfolio-links">
                 <a target="_blank" href="assets/img/portfolio-3.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roulette Syllabus is a game learning CMS website developed for Italy client."><i class="bx bx-search"></i></a>
                 <a target="_blank" href="http://roulettesyllabus.com/new_updated_website" title="More Details"><i class="bx bx-link"></i></a>
