@@ -1085,3 +1085,38 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+
+.more, .less {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 6px;
+  padding: 6px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 320px;
+}
+.filter-app{
+  display: none;
+}
+
+.window {
+  width: 100%;
+  margin: auto;
+  border: 3px solid #040b14;
+  border-radius: 5px;
+  box-shadow: 0px 20px 46px 2px #bcc6ff;
+  cursor: n-resize;
+}  
+.img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 270px;
+    transition: 8s all ease;
+}
+.img:hover {
+  object-position: bottom;
+}
