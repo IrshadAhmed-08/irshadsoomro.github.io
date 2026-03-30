@@ -1120,3 +1120,99 @@ section {
 .img:hover {
   object-position: bottom;
 }
+
+
+
+
+
+
+
+.ias_services_section .section-title p{
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.ias_service_card{
+  background: #ffffff;
+  border: 1px solid #e6edf5;
+  border-radius: 16px;
+  padding: 24px 22px;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  height: 100%;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
+  transition: all 0.3s ease;
+}
+
+.ias_service_card:hover{
+  transform: translateY(-6px);
+  border-color: #149ddd;
+  box-shadow: 0 16px 32px rgba(20, 157, 221, 0.14);
+}
+
+.ias_service_icon{
+  min-width: 62px;
+  width: 62px;
+  height: 62px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #149ddd 0%, #0d6efd 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  box-shadow: 0 10px 20px rgba(20, 157, 221, 0.22);
+}
+
+.ias_service_content{
+  flex: 1;
+}
+
+.ias_service_content h4{
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #173b6c;
+  margin-bottom: 10px;
+}
+
+.ias_service_content p{
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.75;
+  color: #4b5563;
+}
+
+@media (max-width: 991px){
+  .ias_service_card{
+    padding: 22px 18px;
+  }
+
+  .ias_service_content h4{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px){
+  .ias_service_card{
+    gap: 14px;
+    padding: 18px 16px;
+  }
+
+  .ias_service_icon{
+    min-width: 54px;
+    width: 54px;
+    height: 54px;
+    font-size: 22px;
+  }
+
+  .ias_service_content h4{
+    font-size: 17px;
+  }
+
+  .ias_service_content p{
+    font-size: 14px;
+    line-height: 1.65;
+  }
+}
